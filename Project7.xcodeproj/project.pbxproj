@@ -14,6 +14,8 @@
 		0260E4FD2151AE6D00659219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0260E4FB2151AE6D00659219 /* LaunchScreen.storyboard */; };
 		0260E5082151AE6D00659219 /* Project7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0260E5072151AE6D00659219 /* Project7Tests.swift */; };
 		0260E5132151AE6D00659219 /* Project7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0260E5122151AE6D00659219 /* Project7UITests.swift */; };
+		0260E5212151B54100659219 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0260E5202151B54100659219 /* SwiftyJSON.swift */; };
+		0260E5232151B93000659219 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0260E5222151B93000659219 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0260E50E2151AE6D00659219 /* Project7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0260E5122151AE6D00659219 /* Project7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7UITests.swift; sourceTree = "<group>"; };
 		0260E5142151AE6D00659219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0260E5202151B54100659219 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0260E5222151B93000659219 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		0260E4F12151AE6B00659219 /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
+				0260E5202151B54100659219 /* SwiftyJSON.swift */,
 				0260E4F22151AE6B00659219 /* AppDelegate.swift */,
 				0260E4F42151AE6B00659219 /* ViewController.swift */,
+				0260E5222151B93000659219 /* DetailViewController.swift */,
 				0260E4F62151AE6C00659219 /* Main.storyboard */,
 				0260E4F92151AE6D00659219 /* Assets.xcassets */,
 				0260E4FB2151AE6D00659219 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0260E5212151B54100659219 /* SwiftyJSON.swift in Sources */,
 				0260E4F52151AE6B00659219 /* ViewController.swift in Sources */,
 				0260E4F32151AE6B00659219 /* AppDelegate.swift in Sources */,
+				0260E5232151B93000659219 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
